@@ -8,7 +8,7 @@
 
     <groupId>de.saly</groupId>
     <artifactId>elasticsearch-sample-plugin-tssl</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <name>elasticsearch-sample-plugin-tssl</name>
     <description>Elasticsearch example plugin which implements and enforces transport layer SSL/TLS encryption</description>
     <inceptionYear>2015</inceptionYear>
@@ -275,9 +275,6 @@
                     <value>true</value>
                 </property>
             </activation>
-            <properties>
-                <gpg.keyname>7903F81190910A83</gpg.keyname>
-            </properties>
             <build>
                 <plugins>
                     <plugin>
