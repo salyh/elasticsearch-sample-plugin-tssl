@@ -8,7 +8,7 @@
 
     <groupId>de.saly</groupId>
     <artifactId>elasticsearch-sample-plugin-tssl</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
     <name>elasticsearch-sample-plugin-tssl</name>
     <description>Elasticsearch example plugin which implements and enforces transport layer SSL/TLS encryption</description>
     <inceptionYear>2015</inceptionYear>
@@ -185,7 +185,6 @@
                     <descriptors>
                         <descriptor>${basedir}/src/main/assemblies/plugin.xml</descriptor>
                     </descriptors>
-                    <appendAssemblyId>true</appendAssemblyId>
                 </configuration>
                 <executions>
                     <execution>
